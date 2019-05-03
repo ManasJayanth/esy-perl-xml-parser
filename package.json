@@ -1,0 +1,18 @@
+{
+  "name": "esy-perl-xml-parser",
+  "version": "0.0.000",
+  "description": "Perl's XML::Parser packaged for esy",
+  "esy": {
+    "buildsInSource": true,
+    "build": [
+      "perl Makefile.PL PREFIX=#{self.install} EXPATLIBPATH=#{esy-expat.lib} EXPATINCPATH=#{esy-expat.install / 'include'}",
+      "make",
+      "make test",
+      "make install"
+    ]
+  },
+  "dependencies": {
+    "esy-expat": "esy-packages/esy-expat#3714d56e661bf5787ecfb0401ffad4e7c7e50e79",
+    "esy-perl": "esy-packages/esy-perl#0d375d2e23fd87cfe74394efdbe6a071cd35b611"
+  }
+}

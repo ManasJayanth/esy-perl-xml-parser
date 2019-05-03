@@ -1,0 +1,54 @@
+{
+  "checksum": "7562d32cf9c807a53e355e094573374d",
+  "root": "esy-perl-xml-parser@link-dev:./package.json",
+  "node": {
+    "esy-perl-xml-parser@link-dev:./package.json": {
+      "id": "esy-perl-xml-parser@link-dev:./package.json",
+      "name": "esy-perl-xml-parser",
+      "version": "link-dev:./package.json",
+      "source": {
+        "type": "link-dev",
+        "path": ".",
+        "manifest": "package.json"
+      },
+      "overrides": [],
+      "dependencies": [
+        "esy-perl@archive:https://www.cpan.org/src/5.0/perl-5.28.1.tar.gz#sha1:6f1ad40f1a40b5f33814b7afff315e813622590b@5b0a13f7",
+        "esy-expat@github:esy-packages/esy-expat#3714d56e661bf5787ecfb0401ffad4e7c7e50e79@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "esy-perl@archive:https://www.cpan.org/src/5.0/perl-5.28.1.tar.gz#sha1:6f1ad40f1a40b5f33814b7afff315e813622590b@5b0a13f7": {
+      "id":
+        "esy-perl@archive:https://www.cpan.org/src/5.0/perl-5.28.1.tar.gz#sha1:6f1ad40f1a40b5f33814b7afff315e813622590b@5b0a13f7",
+      "name": "esy-perl",
+      "version":
+        "archive:https://www.cpan.org/src/5.0/perl-5.28.1.tar.gz#sha1:6f1ad40f1a40b5f33814b7afff315e813622590b",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://www.cpan.org/src/5.0/perl-5.28.1.tar.gz#sha1:6f1ad40f1a40b5f33814b7afff315e813622590b"
+        ]
+      },
+      "overrides": [ "esy.lock/overrides/5b0a13f7a79d4be669947b58f7d022a0" ],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "esy-expat@github:esy-packages/esy-expat#3714d56e661bf5787ecfb0401ffad4e7c7e50e79@d41d8cd9": {
+      "id":
+        "esy-expat@github:esy-packages/esy-expat#3714d56e661bf5787ecfb0401ffad4e7c7e50e79@d41d8cd9",
+      "name": "esy-expat",
+      "version":
+        "github:esy-packages/esy-expat#3714d56e661bf5787ecfb0401ffad4e7c7e50e79",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:esy-packages/esy-expat#3714d56e661bf5787ecfb0401ffad4e7c7e50e79"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    }
+  }
+}
